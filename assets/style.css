@@ -85,7 +85,7 @@ body {
 	font-style: italic;
 	width: 60%;
 }
-#about-me p {
+.about-me__quote {
 	width: 80%;
 	font-size: 14px;
 }
@@ -101,8 +101,8 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #BEB45A;
+	color: #ffffff;
+	background-color: #7F6022;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -147,7 +147,7 @@ body {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+	font-size: calc(1.375rem + 1.5vw);
 }
 .quote__author {
 	font-family: Spectral;
