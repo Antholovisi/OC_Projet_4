@@ -2,8 +2,27 @@
 <html lang="fr">
 
 <head>
-	<title>Nina Carducci, photographe à Bordeaux et en Ile-de-France</title>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nina Carducci, photographe à Bordeaux et en Ile-de-France</title>
+
+	<!-- Open Graph Meta Tags -->
+	<meta property="og:title" content="Nina Carducci, photographe à Bordeaux et en Ile-de-France" />
+	<meta property="og:description"
+		content="Photographe professionnelle à Bordeaux, spécialisée dans les portraits et les événements." />
+	<meta property="og:image" content="https://www.votre-site.com/path-to-image.jpg" />
+	<meta property="og:url" content="https://www.votre-site.com" />
+	<meta property="og:type" content="website" />
+
+	<!-- Twitter Card Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Nina Carducci, photographe à Bordeaux et en Ile-de-France" />
+	<meta name="twitter:description"
+		content="Photographe professionnelle à Bordeaux, spécialisée dans les portraits et les événements." />
+	<meta name="twitter:image" content="https://www.votre-site.com/path-to-image.jpg" />
+	<meta name="twitter:site" content="@votre_compte_twitter" />
+
+	<!-- CSS Links -->
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,12 +30,30 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
-	<meta charset="UTF-8">
+
+	<!-- JavaScript Links -->
 	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
+
+	<!-- Schema.org JSON-LD -->
+	<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Photographer",
+      "name": "Nina Carducci, photographe à Bordeaux",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "68 avenue Alsace-Lorraine",
+        "postalCode": "33200",
+        "addressLocality": "Bordeaux"
+      },
+      "openingHours": "Mo-Fr 10:00-19:00",
+      "telephone": "05 56 67 78 89"
+    }
+    </script>
 </head>
 
 <body>
@@ -188,6 +225,8 @@
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
 		</aside>
+	</main>
+	<footer>
 		<section id="contact">
 			<div class="container">
 				<div class="form-container">
@@ -208,21 +247,6 @@
 				</div>
 			</div>
 		</section>
-	</main>
-	<footer>
-		<h2 itemprop="name">Nina Carducci, photographe à Bordeaux</h2>
-		<div class="infos">
-			<div class="location" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-				<p itemprop="streetAddress">68 avenue Alsace-Lorraine</p>
-				<p itemprop="postalCode">33200</p>
-				<p itemprop="addressLocality">Bordeaux</p>
-			</div>
-			<div class="phone">
-				<p itemprop="openingHours" content="Mo-Fr 10:00-19:00"> Disponible du Lundi au Vendredi</p>
-				<p>de 10h00 à 19h00</p>
-				<p itemprop="telephone">05 56 67 78 89</p>
-			</div>
-		</div>
 	</footer>
 </body>
 
