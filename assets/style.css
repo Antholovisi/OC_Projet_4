@@ -110,6 +110,16 @@ body {
     cursor: pointer;
 }
 
+.nav-item:hover {
+    cursor: pointer
+}
+
+.nav-link.active-tag {
+    color: black;
+    background-color: #beb45a;
+    border-radius: 0
+}
+
 .nav-pills .nav-link {
 	color: #000
 }
